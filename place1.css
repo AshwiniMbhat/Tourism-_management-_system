@@ -1,0 +1,49 @@
+h1{
+	position:absolute;
+	top:-1%;
+	text-align:center;
+	width:99%;
+	margin:20px auto;
+	border:2px solid black;
+	background-color:silver;
+}
+#content{
+	
+	background-color:none;
+	width:100%;
+	margin:50px auto;
+	border:2px solid #cbcbcb;
+}
+form{
+	border:2px solid red;
+	background-color:gray;
+	width:60%;
+	margin:20px auto;
+}
+form div input{
+	margin-top:5px;
+	position:center;
+}
+#img_div{
+	width:80%;
+	padding:5px;
+	margin:15px auto;
+	border:2px solid #cbcbcb;
+	position:center;
+}
+#img_div:after{
+	content:"";
+	display:inline-table;
+	clear:both;
+}
+img{
+	float:left;
+	margin:5px;
+	width:300px;
+	height:140px:
+}
+.main{
+	position:absolute;
+	top:5%;
+	left:85%;
+}
